@@ -37,22 +37,24 @@ const Temporizador = () => {
   }
 
   return (
-    <div className='contenedor-general-temp'>
-      <h1>Buenos Aires 11/10</h1>
-      <div className='tiempo'>
-      <div className='mini-contenedor'>
-        Dias <span>{timeLeft.days}</span>
-      </div>
-      <div className='mini-contenedor'>
-        Horas <span>{timeLeft.hours}</span>
-      </div>
-      <div className='mini-contenedor'>
-        Minutos <span>{timeLeft.minutes}</span>
-      </div>
-      <div className='mini-contenedor'>
-        Segundos <span>{timeLeft.seconds}</span>
-      </div>
-      </div>
+    <div className='contenedor-centrar'>
+        <div className='contenedor-general-temp'>
+            <h1>Buenos Aires 11/10</h1>
+            <div className='tiempo'>
+                <div className='mini-contenedor'>
+                    Dias <span>{timeLeft.days}</span>
+                </div>
+                <div className='mini-contenedor'>
+                    Horas <span>{timeLeft.hours}</span>
+                </div>
+                <div className='mini-contenedor'>
+                    Minutos <span>{timeLeft.minutes}</span>
+                </div>
+                <div className='mini-contenedor'>
+                    Segundos <span>{timeLeft.seconds}</span>
+                </div>
+            </div>
+        </div>
     </div>
   );
 };

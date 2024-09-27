@@ -2,15 +2,22 @@
 
 *{
     font-family: "Montserrat", sans-serif;
-    
-    text-shadow: 0 0 50px grey;  
+}
+.contenedor-centrar{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contenedor-general-temp{
     color:#212121;
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 50px;
+    border: solid 0px;
+    border-radius: 7px;
+    padding: 10px;
+
 }
 .mini-contenedor{
         display: flex;
@@ -31,20 +38,22 @@
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+    text-shadow: 0 0 50px white;
+
 }
 
 .mini-contenedor > span:hover{
     transform: scale(1.1);
 }
 
-@media only screen and (max-width:370px){
+@media only screen and (max-width:770px){
     .contenedor-general-temp > h1{
         font-size: 35px;
-        gap: 20px !important;
+        gap: 0px !important;
     }
     .tiempo{
         gap: 10px !important;
-        width: 354px;
+        width: 100%;
     }
     .mini-contenedor > span{
         font-size: 40px;
