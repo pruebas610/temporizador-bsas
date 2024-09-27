@@ -17,6 +17,7 @@
         display: flex;
         flex-direction: column;
     align-items: center;
+    max-width: 80px;
 }
 .tiempo{
     width: 100vw;
@@ -29,6 +30,10 @@
 .mini-contenedor > span{
     font-size: 70px;
     font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
 }
-.contenedor-general-temp > h1{  
+
+.mini-contenedor > span:hover{
+    transform: scale(1.1);
 }
