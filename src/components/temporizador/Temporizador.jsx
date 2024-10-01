@@ -3,7 +3,7 @@ import './stylesTemp.css'
 
 const Temporizador = () => {
   // Fecha objetivo: 11 de octubre de 2024 a las 00:00
-  const targetDate = new Date('2024-10-11T00:00:00').getTime();
+  const targetDate = new Date('2024-10-10T00:00:00').getTime();
 
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
