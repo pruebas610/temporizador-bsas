@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './stylesTemp.css'
 
 const Temporizador = () => {
-  // Fecha objetivo: 11 de octubre de 2024 a las 00:00
+  // Fecha objetivo: 10 de octubre de 2024 a las 00:00
   const targetDate = new Date('2024-10-10T00:00:00').getTime();
 
   const calculateTimeLeft = () => {
@@ -39,7 +39,7 @@ const Temporizador = () => {
   return (
     <div className='contenedor-centrar'>
         <div className='contenedor-general-temp'>
-            <h1>Buenos Aires 11/10</h1>
+            <h1>Buenos Aires 10/10</h1>
             <div className='tiempo'>
                 <div className='mini-contenedor'>
                     Dias <span>{timeLeft.days}</span>
